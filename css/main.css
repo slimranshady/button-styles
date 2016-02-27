@@ -1,15 +1,11 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-div {
-  padding: .5rem;
-  text-align: center;
 }
 
 .btn-primary {
@@ -55,6 +51,7 @@ div {
 
 .btn {
   font-size: 1.125rem;
+  display: inline-block;
 }
 
 .btn-small {
@@ -70,5 +67,5 @@ a {
   padding: 0.5em;
   border-radius: .4em;
   display: inline-block;
-  margin: .125em;
+  margin: .5em;
 }
