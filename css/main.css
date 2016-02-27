@@ -8,12 +8,17 @@ html {
   box-sizing: inherit;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #333;
+a.btn {
+  display: inline-block;
 }
 
-.btn-primary:hover {
+.btn {
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+}
+
+.btn:hover {
   color: #fff;
   background-color: #000;
 }
@@ -30,13 +35,13 @@ html {
 
 .btn-ghost {
   color: #333;
-  border: 4px solid #333;
+  border: 3px solid #333;
 }
 
 .btn-ghost:hover {
   color: #fff;
   background-color: #666;
-  border: 4px solid #666;
+  border: 3px solid #666;
 }
 
 .btn-warning {
@@ -49,13 +54,13 @@ html {
   background-color: #933;
 }
 
-.btn {
+.btn1 {
   font-size: 1.125rem;
-  display: inline-block;
 }
 
 .btn-small {
   font-size: 0.875rem;
+  margin: 0.25em;
 }
 
 .btn-big {
@@ -65,7 +70,9 @@ html {
 a {
   text-decoration: none;
   padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   border-radius: .4em;
   display: inline-block;
-  margin: .5em;
+  margin: .4em;
 }
