@@ -41,7 +41,3 @@ css:
       - ['.btn-subtle', ['padding', 'display', 'border-radius', 'border', 'text-decoration']]
       - ['.btn-ghost', ['padding', 'display', 'border-radius', 'border', 'text-decoration']]
       - ['.btn-warning', ['padding', 'display', 'border-radius', 'border', 'text-decoration']]
-
-screenshots:
-  - path: "index.html"
-    sizes: [400]
